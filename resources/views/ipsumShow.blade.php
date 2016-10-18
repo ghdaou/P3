@@ -19,10 +19,11 @@ such as a page specific stylesheets.
 @section('content')
 
         <h1>Lorem Ipsum Generator</h1>
-        <?
+        <?php
         $generator = new Badcow\LoremIpsum\Generator();
         $paragraphs = $generator->getParagraphs($numOfPara);
-        echo implode('<p>', $paragraphs);
+        echo $paragraphs;
+        #echo implode('<p>', $paragraphs);
 
         ?>
 
