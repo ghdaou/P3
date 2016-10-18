@@ -19,21 +19,9 @@ such as a page specific stylesheets.
 @section('content')
 
         <h1>Lorem Ipsum Generator</h1>
+        {{\Lipsum::html($numOfPara)}}
 
-        <labe>Input number of paragraphs (1 to 10)</label>
-        <form method='POST' action='/lipsum'>
-            {{ csrf_field() }}
-            <input type='text' name='lipsum'>
-            <input type='submit' value='Submit'>
-        </form>
 
-        @if(count($errors) > 0)
-            <ul>
-                @foreach ($errors->all() as $error)
-                <li>{{ $error }}</li>
-                @endforeach
-            </ul>
-        @endif
 
 @endsection
 
