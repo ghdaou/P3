@@ -19,7 +19,7 @@ such as a page specific stylesheets.
 @section('content')
 
         <h1>Lorem Ipsum Generator</h1>
-        {{\Lipsum::html($numOfPara)}}
+        {{\Lipsum::html(2)}}
 
 
 
