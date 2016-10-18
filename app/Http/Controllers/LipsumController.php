@@ -25,7 +25,7 @@ class LipsumController extends Controller
         # If the code makes it here, you can assume the validation passed
         $numOfPara = $request->input('lipsum');
 
-        return view('ipsumShow')->with($numOfPara, $request);
+        return view('ipsumShow')->with('numOfPara', $numOfPara);
 
 
     }

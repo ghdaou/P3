@@ -177,7 +177,7 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
-        Magyarjeti\LaravelLipsum\LipsumServiceProvider::class,
+
 
     ],
 
@@ -227,7 +227,6 @@ return [
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
 
-        'Lipsum' => Magyarjeti\LaravelLipsum\LipsumFacade::class,
 
     ],
 

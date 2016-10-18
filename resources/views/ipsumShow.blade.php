@@ -19,7 +19,12 @@ such as a page specific stylesheets.
 @section('content')
 
         <h1>Lorem Ipsum Generator</h1>
-        {{\Lipsum::html(2)}}
+        <?
+        $generator = new Badcow\LoremIpsum\Generator();
+        $paragraphs = $generator->getParagraphs($numOfPara);
+        echo implode('<p>', $paragraphs);
+
+        ?>
 
 
 
