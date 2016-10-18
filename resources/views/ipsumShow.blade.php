@@ -22,8 +22,7 @@ such as a page specific stylesheets.
         <?php
         $generator = new Badcow\LoremIpsum\Generator();
         $paragraphs = $generator->getParagraphs($numOfPara);
-        echo $paragraphs;
-        #echo implode('<p>', $paragraphs);
+        echo implode('<p>', $paragraphs);
 
         ?>
 
