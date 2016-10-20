@@ -5,9 +5,9 @@
 /**
 * Index Route
 */
-Route::get('/lipsum', 'LipsumController@index')->name('lipsum.index');
-Route::POST('/lipsum', 'LipsumController@lipsumShow')->name('lipsumShow.index');
-Route::get('/user', 'UserController@index')->name('user.index');
+Route::get('/', 'LipsumUserController@index')->name('lipsumUser.index');
+Route::post('/', 'LipsumUserController@lipsumShow')->name('lipsum.show');
+Route::post('/user', 'LipsumUserController@userShow')->name('user.show');
 Route::get('contact', 'ContactController')->name('contact');
 
 

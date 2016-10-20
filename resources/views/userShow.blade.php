@@ -2,7 +2,7 @@
 
 
 @section('title')
-    Lorem Ipsum
+    Show book
 @endsection
 
 
@@ -18,17 +18,19 @@ such as a page specific stylesheets.
 
 @section('content')
 
-    @if(count($errors) > 0)
-        <ul>
-            @foreach ($errors->all() as $error)
-            <li>{{ $error }}</li>
-            @endforeach
-        </ul>
-    @endif
 
-        <h1>Lorem Ipsum Generator</h1>
+        @if(count($errors) > 0)
+            <ul>
+                @foreach ($errors->all() as $error)
+                <li>{{ $error }}</li>
+                @endforeach
+            </ul>
+        @endif
 
-        <div class='lipsum'>{{ $paragraphs }} </div>
+        <h1>User Generator</h1>
+
+        <div class='user'> {{ $users }} </div>
+
 
 
 @endsection
