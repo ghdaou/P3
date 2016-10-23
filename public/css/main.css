@@ -1,0 +1,27 @@
+body {
+	background-color: lightblue;
+}
+
+.resultDisplay {
+	color: black;
+	font-size: 25px;
+	text-align: center;
+}
+.error {
+	color:red;
+	font-size: 20px;
+	text-align:center;
+}
+
+.formStyle {
+
+}
+a:link, a:visited, a:active, a:hover {
+	color:white;
+}
+
+h1{
+	color:black;
+	margin-bottom:30px;
+	text-align: center;
+}

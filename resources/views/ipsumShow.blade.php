@@ -12,7 +12,7 @@ Use it to add specific things that *this* View needs in the head,
 such as a page specific stylesheets.
 --}}
 @section('head')
-    <link href="/css/books/show.css" type='text/css' rel='stylesheet'>
+    <link href="/css/lipsum/show.css" type='text/css' rel='stylesheet'>
 @endsection
 
 
@@ -28,7 +28,7 @@ such as a page specific stylesheets.
 
         <h1>Lorem Ipsum Generator</h1>
 
-        <div class='lipsum'>{{ $paragraphs }} </div>
+        <div class='lipsum'>{!! $paragraphs !!} </div>
 
 
 @endsection
@@ -40,5 +40,5 @@ Use it to add specific things that *this* View needs at the end of the body,
 such as a page specific JavaScript files.
 --}}
 @section('body')
-    <script src="/js/books/show.js"></script>
+    <script src="/js/lipsum/show.js"></script>
 @endsection

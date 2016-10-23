@@ -1,0 +1,10 @@
+.users {
+
+    border: 1px solid powderblue;
+    width: 800;
+    font-size: 20px;
+    background-color: white;
+    font-style: italic;
+    color: black;
+    padding: 10px;
+}
