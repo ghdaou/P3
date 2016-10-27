@@ -1,22 +1,13 @@
 <?php
 
-
-
-/**
-* Index Route
-*/
+# Main aplication entry route
 Route::get('/', 'LipsumUserController@index')->name('lipsumUser.index');
+
+# Lorem Ipsum generation and display route
 Route::post('/', 'LipsumUserController@lipsumShow')->name('lipsum.show');
+
+# user data generation and display route
 Route::post('/user', 'LipsumUserController@userShow')->name('user.show');
-Route::get('contact', 'ContactController')->name('contact');
 
-
-
-/**
-* A quick and dirty way to set up a whole bunch of practice routes
-* that I'll use in lecture.
-*/
-Route::get('/practice', 'PracticeController@index')->name('practice.index');
-for($i = 0; $i < 100; $i++) {
-    Route::get('/practice/'.$i, 'PracticeController@example'.$i)->name('practice.example'.$i);
-}
+# contact us page route
+Route::get('/contact', 'ContactController');

@@ -1,6 +1,6 @@
 # Developers Best Friend: A Laravel framework application
 
-Application that generates Lorem Ipsum text and users. Application receives user input for the number of Lorem Ipsum paragraphs to be generated. It also receives user input for the number of users to generate and displays user name/s and if selected displays user birth date and profile
+Application that generates Lorem Ipsum text and user/s data. A visitor to the application is required to input the number of Lorem Ipsum paragraphs to be generated and displayed. Also required is the number of users to generate and if selected birth date and profile are displayed
 
 The application uses 2 packages: One generates the Lorem Ipsum  by  Sam Williams <sam@badcow.co>  and Mathew Tinsley <tinsley@tinsology.net>. The other generates " interesting, sometimes entertaining, random names" by Spencer Rinehart <anubis@overthemonkey.com>
 
@@ -8,6 +8,6 @@ The application uses 2 packages: One generates the Lorem Ipsum  by  Sam Williams
 
 No additional contributors
 
-## [GitHub](https://www.GitHub.com/ghdaou/P3)
+## Repository: [GitHub](https://www.GitHub.com/ghdaou/P3)
 
-## [DigitalOcean](http://p3.backbayexpress.com)
+## Live: [DigitalOcean](http://p3.backbayexpress.com)
