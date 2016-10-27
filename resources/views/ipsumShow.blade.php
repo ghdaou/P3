@@ -26,9 +26,15 @@ such as a page specific stylesheets.
         </ul>
     @endif
 
-        <h1>Lorem Ipsum Generator</h1>
 
-        <div class='lipsum'>{!! $paragraphs !!} </div>
+
+    <h1>Lorem Ipsum</h1>
+
+    <a href="/">Generate More Lorem Ipsum</a> </br>
+
+    <div class='lipsum'>{!! $paragraphs !!} </div>
+
+
 
 
 @endsection

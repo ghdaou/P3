@@ -16,7 +16,10 @@
 <body>
 
     <header>
-
+        <div class ="logo">
+            <a href="/"><span>Developper's Best Friend</span></a>
+        </div>
+        </br>
     </header>
 
     <section>

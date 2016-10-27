@@ -17,6 +17,7 @@ class PracticeController extends Controller
     }
 
     Public function example3(){
-        return 'first P3 try';
+        $converter = new \CurrencyConverter\CurrencyConverter;
+        return $converter->convert('1', '44');
     }
 }

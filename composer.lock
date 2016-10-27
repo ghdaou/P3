@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "e59e7ad95002bf44971a1813d02ee4c2",
-    "content-hash": "f06d2bafa433e86f73cf2e7ee0985436",
+    "hash": "ceb21ee1258a5a50ab0697579d00444f",
+    "content-hash": "c7d83a6c1283c66ac702af77a030b1eb",
     "packages": [
         {
             "name": "badcow/lorem-ipsum",
@@ -351,16 +351,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v5.3.19",
+            "version": "v5.3.21",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "f1a5bb417b3e0d1949fe84617eacd1a14d75d7f1"
+                "reference": "140ad823863d5cc6f4580f1cdf9b18b9a6a457f4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/f1a5bb417b3e0d1949fe84617eacd1a14d75d7f1",
-                "reference": "f1a5bb417b3e0d1949fe84617eacd1a14d75d7f1",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/140ad823863d5cc6f4580f1cdf9b18b9a6a457f4",
+                "reference": "140ad823863d5cc6f4580f1cdf9b18b9a6a457f4",
                 "shasum": ""
             },
             "require": {
@@ -475,7 +475,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2016-10-17 19:35:14"
+            "time": "2016-10-26 13:27:05"
         },
         {
             "name": "league/flysystem",
@@ -1075,6 +1075,58 @@
                 "uuid"
             ],
             "time": "2016-10-02 15:51:17"
+        },
+        {
+            "name": "soapbox/css-colors",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/SoapBox/css-colors.git",
+                "reference": "d726178c1f8e4a018798cefd472d0abc204c2ea5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/SoapBox/css-colors/zipball/d726178c1f8e4a018798cefd472d0abc204c2ea5",
+                "reference": "d726178c1f8e4a018798cefd472d0abc204c2ea5",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/http": ">=4.0",
+                "illuminate/support": ">=4.1",
+                "illuminate/validation": ">=4.1",
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "SoapBox\\Csscolor\\": "src/",
+                    "SoapBox\\Csscolor\\Tests\\": "tests/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Graham McCarthy",
+                    "email": "graham@soapboxhq.com",
+                    "homepage": "http://grahammccarthy.com"
+                }
+            ],
+            "description": "A package that takes in a color hex and returns potential foreground colours and background colour variations. Very useful for creating CSS gradients and dynamically figuring out foreground colour.",
+            "homepage": "https://github.com/SoapBox/css-colors",
+            "keywords": [
+                "background",
+                "color",
+                "css",
+                "foreground",
+                "gradient",
+                "hex",
+                "manipulation",
+                "shading"
+            ],
+            "time": "2015-06-02 17:35:11"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -2669,16 +2721,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "5.6.1",
+            "version": "5.6.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "60c32c5b5e79c2248001efa2560f831da11cc2d7"
+                "reference": "cd13b23ac5a519a4708e00736c26ee0bb28b2e01"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/60c32c5b5e79c2248001efa2560f831da11cc2d7",
-                "reference": "60c32c5b5e79c2248001efa2560f831da11cc2d7",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/cd13b23ac5a519a4708e00736c26ee0bb28b2e01",
+                "reference": "cd13b23ac5a519a4708e00736c26ee0bb28b2e01",
                 "shasum": ""
             },
             "require": {
@@ -2747,7 +2799,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2016-10-07 13:03:26"
+            "time": "2016-10-25 07:40:25"
         },
         {
             "name": "phpunit/phpunit-mock-objects",
@@ -3533,7 +3585,8 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "badcow/lorem-ipsum": 20
+        "badcow/lorem-ipsum": 20,
+        "soapbox/css-colors": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

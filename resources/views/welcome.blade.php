@@ -2,7 +2,7 @@
 
 
 @section('title')
-    Show book
+    Developper's Best Friend
 @endsection
 
 
@@ -17,9 +17,6 @@ such as a page specific stylesheets.
 
 
 @section('content')
-
-        <h1>Lorem Ipsum and User Generator</h1>
-        </br>
 
         <h2>Lorem Ipsum Generator</h2>
 
@@ -38,9 +35,9 @@ such as a page specific stylesheets.
         <form method='POST' action='/user'>
             {{ csrf_field() }}
             <input type='text' name='user'></br></br>
-            <labe>Display User Birth Date </label></br>
+            <labe>Display User's Birth Date </label></br>
             <input type='checkbox' name='birthdate'></br></br>
-            <labe>Display User Profile </label></br>
+            <labe>Display User's Profile </label></br>
             <input type='checkbox' name='profile'></br></br>
             <input type='submit' value='Submit'></br>
         </form>
