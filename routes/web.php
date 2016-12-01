@@ -1,7 +1,7 @@
 <?php
 
 # Main aplication entry route
-Route::get('/', 'LipsumUserController@index')->name('lipsumUser.index');
+Route::get('', 'LipsumUserController@index')->name('lipsumUser.index');
 
 # Lorem Ipsum generation and display route
 Route::post('/', 'LipsumUserController@lipsumShow')->name('lipsum.show');
